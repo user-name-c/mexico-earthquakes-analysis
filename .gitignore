@@ -1,0 +1,29 @@
+# --- Data ---
+# No subimos datos crudos (suelen ser pesados y se obtienen vía script)
+data/raw/*.json
+# Opcional: puedes subir el procesado si es pequeño, 
+# pero lo ideal es que el usuario lo genere con tu script.
+data/processed/*.csv
+
+# --- Python / Environment ---
+# Entornos virtuales
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# --- Jupyter Notebooks ---
+# Archivos temporales de checkpoints
+.ipynb_checkpoints/
+
+# --- OS / IDE ---
+.DS_Store (Mac)
+Thumbs.db (Windows)
+.vscode/
+.idea/
+
+# --- Outputs ---
+# Opcional: si quieres que la gente vea tus gráficas en el repo, 
+# NO ignores esta carpeta. Pero si son cientos, mejor ignóralas.
+# outputs/figures/*.png
