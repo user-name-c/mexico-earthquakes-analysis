@@ -1,5 +1,7 @@
 # Mexico Earthquake Analysis (EDA)
 
+![Magnitude Distribution](outputs/figures/earthquake_distribution_magnitudes.png.png)
+
 An automated data pipeline and exploratory analysis of seismic activity in Mexico using the **USGS Earthquake Hazards Program API**. This project demonstrates professional data handling, from raw API ingestion to visual insights.
 
 ## 🎯 Project Overview
@@ -53,7 +55,7 @@ pip install -r requirements.txt
 3. **Run the pipeline:**
 Open `notebooks/analysis.ipynb` and run all cells. The notebook automatically triggers the scripts to fetch and process the latest data.
 
-## 📈 Key Insights (Phase 1)
+## 📈 Key Insights 
 
 * **Standardization:** Successfully converted Unix/UTC timestamps to local Mexico City timezone for better reporting.
 * **Cleaning:** Filtered out seismic noise (magnitudes < 2.5) to focus on significant geological events.
