@@ -1,6 +1,6 @@
 # Mexico Earthquake Analysis (EDA)
 
-![Magnitude Distribution](outputs/figures/earthquake_distribution_magnitudes.png.png)
+![Magnitude Distribution](outputs/figures/earthquake_distribution_magnitudes.png)
 
 An automated data pipeline and exploratory analysis of seismic activity in Mexico using the **USGS Earthquake Hazards Program API**. This project demonstrates professional data handling, from raw API ingestion to visual insights.
 
